@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "wine-aly"
+version = "0.1.0"
+description = ""
+authors = ["amdouly <amadouly630@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pandas = "^1.1.4"
+jupyter = "^1.0.0"
+ipykernel = "^5.3.4"
+scikit-learn = "^0.23.2"
+matplotlib = "^3.3.2"
+yellowbrick = "^1.2"
+xgboost = "^1.2.1"
+mlxtend = "^0.17.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
